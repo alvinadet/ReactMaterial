@@ -7,17 +7,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hallo</h1>
-        <h1>Hallo</h1>
-        <Header />
-        <HeaderClass />
+        <HeaderClass nama="alvin" kelas="10" />
+        <HeaderClass nama="adetya" kelas="11" />
+        <HeaderClass nama="sodo" kelas="12" />
+        <HeaderClass nama="jono" kelas="13" />
       </div>
     );
   }
 }
-
-const Header = () => {
-  return <h1>Ini Header Functional</h1>;
-};
 
 export default App;
