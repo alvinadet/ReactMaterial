@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import HeaderClass from './components/Header';
 import './App.css';
 
 class App extends Component {
@@ -9,15 +10,14 @@ class App extends Component {
         <h1>Hallo</h1>
         <h1>Hallo</h1>
         <Header />
+        <HeaderClass />
       </div>
     );
   }
 }
 
-class Header extends Component {
-  render() {
-    return <h1>Ini Header</h1>;
-  }
-}
+const Header = () => {
+  return <h1>Ini Header Functional</h1>;
+};
 
 export default App;
