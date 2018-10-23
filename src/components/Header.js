@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 
 class HeaderClass extends Component {
-  state = {
-    angka: 1
-  };
-
-  handleClick = () => {
-    alert('Yah Di Klik?');
-  };
-
   render() {
     return (
       <div>
